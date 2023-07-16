@@ -1,6 +1,6 @@
 <script>
   import "../app.css";
-  import Navbar from "../lib/components/NavigationPanel.svelte";
+  import Navbar from "$lib/components/NavigationPanel.svelte";
 </script>
 
 <div class="flex flex-col h-screen">
