@@ -1,10 +1,5 @@
 <script>
-	import Navbar from '../lib/components/NavigationPanel.svelte';
+  import Canvas from "../lib/components/Canvas.svelte";
 </script>
 
-<div class="flex flex-col h-screen">
-	<Navbar />
-	<main class="flex flex-grow">
-		<slot />
-	</main>
-</div>
+<Canvas />
